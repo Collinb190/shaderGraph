@@ -76,6 +76,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _icetext:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -133,6 +137,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Base_Color: {r: 0.37577617, g: 0.78206193, b: 0.95597476, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EdgeColor: {r: 0, g: 1.129412, b: 11.98431, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -140,7 +145,8 @@ Material:
     - _GlowColor: {r: 0.09760285, g: 0.6603774, b: 0.27032346, a: 0}
     - _MinMaxGlow: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TextureTiling: {r: 1, g: 7, b: 0, a: 0}
+    - _TextureTiling: {r: 1, g: 5, b: 0, a: 0}
+    - _ice: {r: 0.2093468, g: 0.6138756, b: 0.91194963, a: 0}
     - _secondColor: {r: 0.05834418, g: 0.31446534, b: 0.05834418, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
