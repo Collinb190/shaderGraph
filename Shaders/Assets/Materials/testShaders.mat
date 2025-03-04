@@ -132,15 +132,16 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.15686275, g: 0.32156864, b: 0.15294118, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EdgeColor: {r: 0, g: 1.129412, b: 11.98431, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 0.06396093, g: 0.9685533, b: 0.23737386, a: 1}
+    - _FresnelColor: {r: 0.04922665, g: 0.11949676, b: 0.06291563, a: 1}
     - _GlowColor: {r: 0.09760285, g: 0.6603774, b: 0.27032346, a: 0}
     - _MinMaxGlow: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TextureTiling: {r: 1, g: 6, b: 0, a: 0}
+    - _TextureTiling: {r: 1, g: 7, b: 0, a: 0}
+    - _secondColor: {r: 0.05834418, g: 0.31446534, b: 0.05834418, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5980283615936149594
