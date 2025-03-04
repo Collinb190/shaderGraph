@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: glowShader
-  m_Shader: {fileID: -6465566751694194690, guid: 424a0a05d9fefa740bc32f44d014d722, type: 3}
+  m_Name: testShaders
+  m_Shader: {fileID: -6465566751694194690, guid: f5e14b1344541d74ba6bf5f117e89582, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -100,10 +100,13 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GlowPower: 3
+    - _GlowPower: 2
+    - _MaximumGlow: 2
     - _Metallic: 0
+    - _MinimumGlow: 0.5
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _PulseRate: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -121,6 +124,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.7529412, g: 0.21176471, b: 1.4980392, a: 1}
     - _GlowColor: {r: 0.09760285, g: 0.6603774, b: 0.27032346, a: 0}
+    - _MinMaxGlow: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
