@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: testShaders
-  m_Shader: {fileID: -6465566751694194690, guid: f5e14b1344541d74ba6bf5f117e89582, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: f67a0f3d66f2b5540af17d5dbb087e2c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -94,19 +94,22 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DissolveSpeed: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EdgeThickness: 0.03
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _GlowPower: 2
-    - _MaximumGlow: 2
+    - _MaximumGlow: 1
     - _Metallic: 0
     - _MinimumGlow: 0.5
+    - _NoiseAmount: 300
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PulseRate: 1
+    - _PulseRate: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -119,8 +122,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.5921569, b: 0.37254903, a: 1}
+    - _BaseColor: {r: 0.20784314, g: 0.2, b: 0.2, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 0, g: 1.129412, b: 11.98431, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.7529412, g: 0.21176471, b: 1.4980392, a: 1}
     - _GlowColor: {r: 0.09760285, g: 0.6603774, b: 0.27032346, a: 0}
